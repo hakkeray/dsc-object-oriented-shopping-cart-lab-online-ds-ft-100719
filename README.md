@@ -22,7 +22,7 @@ To start, you'll once again set this notebook to autoreload packages so that whe
 
 
 ```python
-%load_ext autoreload
+%reload_ext autoreload
 %autoreload 2
 ```
 
@@ -149,9 +149,9 @@ print(shopping_cart.apply_discount()) # Sorry, there is no discount to apply to 
 
     45.0
     60.0
-    48.0
+    Sorry, there is no discount to apply to your cart :(
     1060.0
-    848.0
+    Sorry, there is no discount to apply to your cart :(
     Sorry, there is no discount to apply to your cart :(
 
 
